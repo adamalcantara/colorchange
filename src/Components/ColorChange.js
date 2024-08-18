@@ -1,8 +1,18 @@
 import React from 'react'
 
-const ColorChange = () => {
+const ColorChange = ({ colorName, setColorName }) => {
   return (
-    <div>ColorChange</div>
+    <form>
+        <label htmlFor='colorName'>Change Color</label>
+        <input 
+            autofocus
+            id='colorName'
+            placeholder='Add Color Name'
+            required
+            value={colorName}
+            onChange={(e) => setColorName(e.target.value)}
+        />
+    </form>
   )
 }
 
