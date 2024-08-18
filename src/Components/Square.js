@@ -1,12 +1,11 @@
 import React from 'react'
 
-const Square = () => {
+const Square = ({ colorName }) => {
   return (
     // The div for the square
-    <div className='square' style={{backgroundColor: "red"}}>
+    <div className='square' style={{backgroundColor: {colorName}}}>
       {/* Ternary operator to display the default text or the color name */}
-      {}
-      Empty Value
+      <p>{colorName ? {colorName} : "Empty Value"}</p>
     </div>
   )
 }
