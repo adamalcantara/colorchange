@@ -2,7 +2,7 @@ import React from 'react'
 
 const ColorChange = ({ colorName, setColorName }) => {
   return (
-    <form>
+    <form className='colorForm'>
         <label htmlFor='colorName'>Change Color</label>
         <input 
             autofocus

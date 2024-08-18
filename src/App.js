@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './App.css';
 import Square from './Components/Square';
 import ColorChange from './Components/ColorChange';
