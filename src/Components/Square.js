@@ -2,7 +2,12 @@ import React from 'react'
 
 const Square = () => {
   return (
-    <div>Square</div>
+    // The div for the square
+    <div className='square'>
+      {/* Ternary operator to display the default text or the color name */}
+      {}
+      Empty Value
+    </div>
   )
 }
 

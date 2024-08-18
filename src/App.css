@@ -5,3 +5,14 @@
   align-items: center;
   height: 100vh
 }
+
+.square {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
