@@ -5,7 +5,7 @@ const Square = ({ colorName }) => {
     // The div for the square
     <div className='square' style={{backgroundColor: {colorName}}}>
       {/* Ternary operator to display the default text or the color name */}
-      <p>{colorName ? {colorName} : "Empty Value"}</p>
+      { colorName ? <p>{colorName}</p> : <p>Empty Value</p> }
     </div>
   )
 }
