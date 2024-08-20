@@ -2,8 +2,8 @@ import React from 'react'
 
 const ColorChange = ({ colorName, setColorName }) => {
   return (
-    // Form for updating the color name, prevent reloading of the page
-    <form className='colorForm' onSubmit={(e) => e.preventDefault()}>
+    // Form for updating the color name
+    <form className='colorForm'>
         <label htmlFor='colorName'>Change Color</label>
 
         {/* the input */}
