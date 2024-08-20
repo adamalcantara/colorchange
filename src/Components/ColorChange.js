@@ -8,7 +8,7 @@ const ColorChange = ({ colorName, setColorName }) => {
 
         {/* the input */}
         <input 
-            autofocus
+            autoFocus
             id='colorName'
             placeholder='Add Color Name'
             required
